@@ -1,0 +1,316 @@
+.container1{
+    border: 10px solid #F1948A;
+    padding: 10px ;
+    text-align: center;
+    background-color:aliceblue;
+    margin-top: 30px;  
+    margin-left: 60px;
+    margin-right: 60px;
+    border-radius: 25px;
+    color:black;
+}
+.railwayimg{
+
+    position: absolute ;
+    right:1000px;
+    bottom:540px;
+    block-size: 80px;
+    size-adjust: 0px;
+}
+.railwayimg2{
+    position: absolute ;
+    left:1000px;
+    bottom:540px;
+    block-size: 80px;
+    size-adjust: 0px;
+
+}
+
+
+.container2{
+    
+    text-align: center;
+    color:black; 
+
+    font-size: larger;
+    border-color:currentColor;
+    position: absolute;
+    
+    left:65px;
+    width:600px;
+    height:330px;
+    background-color:aliceblue;
+}
+.details{
+    color:black;
+ border:solid 1px;
+}
+
+
+ .glow {
+    text-align: center;
+    color:black;
+     animation: glow 1s ease-in-out infinite alternate;
+  }
+  @-webkit-keyframes glow {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b2fffb, 0 0 40px #b2fffb, 0 0 50px #b2fffb, 0 0 60px #b2fffb, 0 0 70px #b2fffb;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2761ff,\ 0 0 40px #2761ff, 0 0 50px #2761ff, 0 0 60px #2761ff, 0 0 70px #2761ff, 0 0 80px #2761ff;
+    }
+  }
+
+.mainimg{
+ position:absolute ;
+margin-left:57%;
+}
+.hi{
+    text-align: center;
+    font-size: 20px;
+}
+.btn{
+display: inline-block;
+  padding: .75rem 1.25rem;
+  border-radius: 10rem;
+  color:brown;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: .15rem;
+  transition: all .3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: $color;
+    border-radius: 10rem;
+    z-index: -2;
+  }
+  &:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: darken($color, 15%);
+    transition: all .3s;
+    border-radius: 10rem;
+    z-index: -1;
+  }
+  &:hover {
+    color:crimson;
+    &:before {
+      width: 100%;
+    }
+  }
+}
+.ll{
+padding-top:5px;
+padding-left:10px;
+}
+.Bhgg{
+    padding-top:5px;
+padding-left:10px;
+
+
+}
+.about{
+    margin-top: 3%;
+   margin-left: 27%;
+text-align: center;   
+width: 600px;
+height:100px;
+background-color:lightpink;
+}
+h1{
+    text-align: center;
+}
+.aboutimg{
+margin-left: 31%;
+    
+}
+.bskr{
+
+    background-color:aliceblue;
+}
+.demo{
+    
+    background-color:#e60073;
+    
+    margin-top: 10%;
+    width: 100%;
+    height:200px;
+
+}
+.Endtime{
+    
+    position: absolute;
+    padding-left: 90%;
+    font-size:20px;
+}
+
+.StartTime{
+    position:absolute;
+ padding-left:10%;
+ font-size:20px;
+}
+.container-fluid{
+    
+    display: inline-block;
+    border: 2px solid black;
+    border-radius:15px;
+     align-items: center;
+     background-color:aliceblue;
+    margin-top: 5%;
+   
+    padding-left:290px;
+    font-family: sans-serif;
+    
+}
+.container-fluid2{
+    
+
+    border: solid 4px;
+    border-color:black;
+    border-radius:15px;
+     align-items: center;
+     background-color:aliceblue;
+    /* margin-left: 20%; */
+    font-family: sans-serif;
+    padding-right:80px;
+
+}
+.btn{
+
+    align-items: center;
+}
+a:hover{
+
+background-color:antiquewhite;
+border-radius: 3px;
+    transition: 0.3s;
+    text-decoration: none;
+}
+#hmm{
+    text-decoration: none;
+}
+#hmm1{
+    text-decoration: none;
+}
+#hmm2{
+    text-decoration: none;
+}
+#hmm3{
+    text-decoration: none;
+}
+#hmm4{
+    text-decoration: none;
+}
+#body2 {
+background-image: url("public/Images/pexels-pixabay-163580.jpg");
+background-size: 100%;
+}
+#headersearch{
+    color:black;
+}
+.data{
+    text-align: center;
+    color:brown;
+    animation: data 1s ease-in-out infinite alternate;
+
+}
+@-webkit-keyframes data {
+    from {
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #b2fffb, 0 0 40px #b2fffb, 0 0 50px #b2fffb, 0 0 60px #b2fffb, 0 0 70px #b2fffb;
+    }
+    
+    to {
+      text-shadow: 0 0 20px #fff, 0 0 30px #2761ff,\ 0 0 40px #2761ff, 0 0 50px #2761ff, 0 0 60px #2761ff, 0 0 70px #2761ff, 0 0 80px #2761ff;
+    }
+}
+.to{
+    padding-left:25px;
+}
+.finalpage{
+    width:50%;
+    height:60%;
+    margin-top:2%;
+    margin-left: 25%;
+    background-color:beige;
+
+
+
+}
+#conbut{
+    padding-left:35%;
+}
+#ummaa{
+
+    text-align: center;
+    color:#fff;
+}
+#jldikr{
+background-image: url("public/Images/NFR-Train.webp");
+background-size: 90%;
+opacity:0.9;
+
+
+}
+#confirmimg{
+    padding-top: 70px ;
+    width:250px;
+    height:250px;
+
+}
+.bshogyaa{
+ text-align:center;
+
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+    transition:5s;
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    transition: 5s;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    transition: 5s;
+  }
+
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

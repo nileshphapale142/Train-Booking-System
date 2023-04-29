@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<style>
+    body {
+        background-image: url("public/Images/confirmed-text-on-green-vintage-grungy-round-rubber-stamp-2H9Y06T.jpg");
+    }
+
+    .receipt {
+        display: inline-grid;
+        margin-left: 40%;
+    }
+
+    .msg {
+        margin-top: 7%;
+        margin-left: 40%;
+    }
+
+    .homeBtn {
+        margin-top: 10%;
+        margin-left: 40%;
+        color: blue;
+        background-color: black;
+        border-radius: 1rem;
+        width: 8rem;
+        height: 3rem;
+    }
+
+</style>
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Confirmation</title>
+    <link rel="stylesheet" href="public/bootsytles.css" type="text/css">
+</head>
+
+
+<body>
+
+<div class="bshogyaa">
+    <div class="msg">
+        <p>Thank you for using our Services</p>
+        <p>Your ticket has been confirmed</p>
+        <p> Praying for your safe and comfortable journey ☺️.</p>
+        <br>
+        <p> Here's is your receipt </p>
+    </div>
+
+    <div class="receipt">
+        <span><strong>Name : </strong>{{pName}}</span>
+        <span><strong>Age : </strong>{{pAge}}</span>
+        <span><strong>Aadhar No. : </strong>{{pAadhar}}</span>
+        <span><strong>Mobile No. : </strong>{{pMobile}}</span>
+        <span><strong>Email Id : </strong>{{pMail}}</span>
+    </div>
+
+    <form action="http://localhost:3000/" method="get">
+        <button id="myBtn" class="homeBtn" type="submit">Goto Home</button>
+    </form>
+</div>
+</body>
+
+</html>
